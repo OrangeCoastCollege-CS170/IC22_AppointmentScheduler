@@ -7,5 +7,7 @@ November 18, 2016
 IC22
 */
 public class TimeInUseException extends Exception {
-
+    public TimeInUseException(String message) {
+        super(message);
+    }
 }
